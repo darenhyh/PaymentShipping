@@ -3,16 +3,21 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-heJDBC/nbproject/build-impl.xml</file>
-            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-heJDBC/src/java/model/ShippingDetail.java</file>
-            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-heJDBC/src/java/dao/PaymentDAO.java</file>
-            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-heJDBC/web/JSP/PaymentShipping.jsp</file>
-            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-heJDBC/src/java/model/PaymentMethod.java</file>
-            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-heJDBC/src/java/PaymentValidator.java</file>
-            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-heJDBC/src/java/PaymentServlet.java</file>
-            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-heJDBC/src/java/model/BuyerDetail.java</file>
-            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-heJDBC/src/java/model/Payment.java</file>
-            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-heJDBC/src/java/model/Address.java</file>
+            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-JDBC/src/java/dao/PaymentDAO.java</file>
+            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-JDBC/src/java/model/Address.java</file>
+            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-JDBC/src/java/ThankYouServlet.java</file>
+            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-JDBC/src/java/model/Payment.java</file>
+            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-JDBC/src/java/PaymentShippingServlet.java</file>
+            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-JDBC/src/java/ValidatePaymentServlet.java</file>
+            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-JDBC/src/java/model/BuyerDetail.java</file>
+            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-JDBC/src/java/model/PaymentMethod.java</file>
+            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-JDBC/src/java/dao/ShippingDAO.java</file>
+            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-JDBC/web/JSP/PaymentShippingForm.jsp</file>
+            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-JDBC/src/java/ValidateShippingServlet.java</file>
+            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-JDBC/src/java/TestConnection.java</file>
+            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-JDBC/src/java/model/ShippingDetail.java</file>
+            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-JDBC/web/JSP/ThankYou.jsp</file>
+            <file>file:/C:/Users/Christine/OneDrive/Documents/NetBeansProjects/GlowyDays-JDBC/web/CSS/payment.css</file>
         </group>
     </open-files>
 </project-private>

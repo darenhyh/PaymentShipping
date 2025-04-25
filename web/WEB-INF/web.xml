@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app version="6.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
-    
-    <error-page>
-        <error-code>500</error-code>
-        <location>/WEB-INF/error500.jsp</location>
-    </error-page>
-    
-    <session-config>
-        <session-timeout>30</session-timeout>
-    </session-config>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>PaymentServlet</servlet-name>
+        <servlet-class>PaymentServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ShippingValidateServlet</servlet-name>
+        <servlet-class>ValidateShippingServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PaymentValidateServlet</servlet-name>
+        <servlet-class>ValidatePaymentServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PaymentShippingServlet</servlet-name>
+        <servlet-class>PaymentShippingServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ThankYouServlet</servlet-name>
+        <servlet-class>ThankYouServlet.ThankYouServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PaymentServlet</servlet-name>
+        <url-pattern>/PaymentServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ShippingValidateServlet</servlet-name>
+        <url-pattern>/ShippingValidateServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PaymentValidateServlet</servlet-name>
+        <url-pattern>/PaymentValidateServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PaymentShippingServlet</servlet-name>
+        <url-pattern>/PaymentShippingServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ThankYouServlet</servlet-name>
+        <url-pattern>/ThankYouServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

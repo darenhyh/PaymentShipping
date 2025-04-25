@@ -1,23 +1,54 @@
 package model;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "SHIPPINGDETAIL")
 public class ShippingDetail {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "shippingId")
     private int shippingId;
-    private int buyerId;
-    private int addressId;
+
+    @ManyToOne
+    @JoinColumn(name = "buyerId", nullable = false)
+    private BuyerDetail buyer;
+
+    @ManyToOne
+    @JoinColumn(name = "addressId", nullable = false)
+    private Address address;
 
     // Constructors
     public ShippingDetail() {}
-    
-    public ShippingDetail(int buyerId, int addressId) {
-        this.buyerId = buyerId;
-        this.addressId = addressId;
+
+    public ShippingDetail(BuyerDetail buyer, Address address) {
+        this.buyer = buyer;
+        this.address = address;
     }
 
     // Getters and Setters
-    public int getShippingId() { return shippingId; }
-    public void setShippingId(int shippingId) { this.shippingId = shippingId; }
-    public int getBuyerId() { return buyerId; }
-    public void setBuyerId(int buyerId) { this.buyerId = buyerId; }
-    public int getAddressId() { return addressId; }
-    public void setAddressId(int addressId) { this.addressId = addressId; }
+    public int getShippingId() {
+        return shippingId;
+    }
+
+    public void setShippingId(int shippingId) {
+        this.shippingId = shippingId;
+    }
+
+    public BuyerDetail getBuyer() {
+        return buyer;
+    }
+
+    public void setBuyer(BuyerDetail buyer) {
+        this.buyer = buyer;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
 }
